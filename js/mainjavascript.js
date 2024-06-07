@@ -2,6 +2,7 @@
 // Chiedi all’utente la sua email, controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato sull’esito del controllo.
 
 
+   
 
 // 1* //  Creazione Array contenente le email autorizzate
 
@@ -25,14 +26,36 @@
 
     inviaMail.addEventListener ("click",
         function(event) {
-            event.preventDefault()
+            event.preventDefault();
+
+            const emailInput = document.getElementById('emailinput').value;
+
+            const testoMessaggio = document.querySelector('.messaggio');
+            
+
+             // verifica funzionamento console
+    
+            console.log(emailInput);
         }
+
+        
     )
 
+// controlla che sia nella lista di chi può accedere, iniziando un ciclo con for nella emaillist
+    let accessoConsentito = false;  
 
+    for (let i = 0; i < emailList.length && !accessoConsentito; i++) {
 
+        
 
-// controlla che sia nella lista di chi può accedere,
+        if (emailList[i] === emailInput) {
+
+            accessoConsentito = true;
+            
+            
+       }
+        
+    }
 
 
 
