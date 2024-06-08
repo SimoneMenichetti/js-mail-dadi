@@ -6,17 +6,35 @@
     <title>DADI</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+    <div class="container-title" >
+        <h1>Tenta La Fortuna </h1>
+    </div>
 <body>
 <!-- sezione form play -->
-    <section>
+   
+    
         <div class="container">
             <form class="playform" action="#">
-                <button id="playButton">Gioca</button>
-                <div>
-                    <h2 class="risultato"></h2>
+                <div class="containerbutton">
+                    <button id="playButton">Gioca</button>
                 </div>
+            </form>
+                <!-- punteggio utente -->
+                <div>
+                    <h2 class="risultatogiocatore"></h2>
+                </div>
+                <!-- punteggio computer -->
+                <div>
+                    <h2 class="risultatocomputer"></h2>
+                </div>
+                <!-- vinto o perso -->
+                <div>
+                    <h1 class="risultatofinale"></h2>
+                </div>
+
+            
         </div>
-    </section>
+    
 
     <!-- js link -->
     <script type="text/javascript" src="./js/mainjavascript.js"></script>
