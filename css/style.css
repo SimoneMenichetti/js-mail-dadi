@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* regole generali */
+
 body{
     height: 100vh;
     background-color: #16417C;
@@ -25,12 +27,13 @@ span{
     color: #fff;
 }
 
+/* regole submit "invia" */
 .submit{
     cursor: pointer;
     
 }
 
-
+/* container principale */
 
 
 .flex{
@@ -38,6 +41,8 @@ span{
     justify-content: center;
     
 }
+
+/* sezione FORM Utente */
 .container{
     width: 90%;
     height: 100px;
@@ -50,7 +55,7 @@ span{
 
 
 .container, .emailform{
-   width: 400px;
+    width: 400px;
     background-color: #616161;
     display: flex;
     justify-content: center;

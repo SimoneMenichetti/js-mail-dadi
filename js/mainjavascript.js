@@ -46,7 +46,7 @@
                 }
             }
         
-            // Mostra il messaggio appropriato
+            // stampa un messaggio appropriato sull’esito del controllo.
             if (emailTrovata) {
 
                 
@@ -63,13 +63,3 @@
         }
     )
 
-
-     
-
-   
-
-
-
-
-
-// stampa un messaggio appropriato sull’esito del controllo.
